@@ -61,16 +61,16 @@ Northwind (a trading company) wants to understand:
 
 ---
 
-## 📈 Key Insights
-- 📌 **Top Category:** Beverages ($268K) followed by Dairy Products ($235K)  
-- 📌 **Top Country:** France ($278K), followed by Germany ($197K)  
-- 📌 **Top Region:** Victoria with $863K sales  
-- 📌 Sales show strong growth in 1996, especially in beverages  
-- 📌 Employee distribution and shipping analysis reveal performance gaps  
+##  Key Insights
+-  **Top Category:** Beverages ($268K) followed by Dairy Products ($235K)  
+-  **Top Country:** France ($278K), followed by Germany ($197K)  
+-  **Top Region:** Victoria with $863K sales  
+-  Sales show strong growth in 1996, especially in beverages  
+-  Employee distribution and shipping analysis reveal performance gaps  
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 The dashboard provides a **360° view of company sales and operations**, helping management:
 - Identify best-performing products, regions, and employees  
 - Optimize shipping and supplier costs  
@@ -79,23 +79,12 @@ The dashboard provides a **360° view of company sales and operations**, helping
 
 ---
 
-## 📂 Project Structure
-📁 Northwind-Sales-Analytics
-│── 📊 Dashboard.pbix
-│── 📑 SQL Queries.sql
-│── 📑 Data (Excel files)
-│── 📷 Screenshots
-│── 📄 README.md
-
-
----
-
-## 💡 Future Enhancements
+##  Future Enhancements
 - Add predictive analytics (sales forecasting)  
 - Automate SQL → Power BI data pipeline  
 - Include customer segmentation & RFM analysis  
 
 ---
 
-### 👩‍💻 Author  
+### Author  
 **Surbhi Jain** | Data Analyst|Passionate about turning raw data into actionable insights 
