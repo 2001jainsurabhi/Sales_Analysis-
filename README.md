@@ -1,125 +1,101 @@
-📊 Sales Analytics Dashboard
-📌 Project Overview
+#  Sales Analytics Dashboard – Northwind Dataset
 
-This project focuses on analyzing sales, orders, employees, shipping, products, and suppliers data using SQL, Excel, and Power BI. The goal was to transform raw data into meaningful insights by building an interactive dashboard that supports data-driven decision-making.
+This project is an **end-to-end Sales Analytics Dashboard** built using **Excel, SQL, and Power BI**.  
+It analyzes **sales, orders, customers, employees, shipping, products, and suppliers** to deliver actionable insights for decision-making.
 
-🎯 Problem Statement
+---
 
-Businesses often face challenges in understanding sales performance, employee distribution, product demand, and shipping efficiency. Without structured insights, it becomes difficult to:
+##  Problem Statement
+Northwind (a trading company) wants to understand:
+- How are sales performing across regions, categories, and customers?  
+- Who are the top customers, employees, and suppliers driving revenue?  
+- How efficient is the shipping process and what are the costs?  
+- What trends and patterns exist in sales over time?
 
-Track key sales and order trends
+---
 
-Monitor employee and supplier performance
+##  Tools & Technologies
+- **SQL** → Data cleaning, transformation, and joining multiple tables  
+- **Excel** → Initial data exploration & preprocessing  
+- **Power BI** → Dashboard design, DAX measures, KPIs, and visualizations  
 
-Identify inefficiencies in shipping and freight costs
+---
 
-Analyze customer purchasing behavior
+##  Project Workflow
+1. **Data Cleaning & Preparation**
+   - Removed duplicates and null values using SQL  
+   - Standardized columns for consistency  
+   - Merged 8+ related tables (Orders, Customers, Employees, Products, Suppliers, Shippers, Categories, Regions)
 
-This project addresses these problems by creating a centralized analytical dashboard.
+2. **Data Modeling**
+   - Built relationships between fact and dimension tables  
+   - Applied primary/foreign keys for proper joins  
 
-🗂️ Dataset & Tables Used
+3. **Dashboard Development**
+   - Created KPIs:
+     - Total Sales → **$1.27M**
+     - Total Orders → **830**
+     - Customer Count → **91**
+     - Total Quantity → **51K**
+     - Sales YoY Growth → **68%**
+   - Designed slicers for dynamic filtering (Year, Category, Country)  
+   - Added trend analysis (Sales & Orders over time)
 
-The project uses multiple related tables with 15+ entity relationships. Key tables include:
+4. **DAX & Calculations**
+   - Average Shipping Days  
+   - Freight Cost per Order  
+   - Employee Tenure Distribution  
+   - YoY % Growth in Sales  
 
-Orders – Order details, dates, freight costs, shipping info
+---
 
-Customers – Customer profiles and regions
+##  Dashboard Preview
+### Overview Page
+![Sales Analytics Dashboard](./Northwind%20overview%20Analysis.PNG)
 
-Employees – Employee details, hire dates, distribution
+**Highlights:**
+- Peak Sales of **$129K** in **May 1996**, mainly driven by Beverages  
+- Beverages & Dairy Products are top-performing categories  
+- France leads in country sales with **$278K**  
+- Victoria dominates region sales with **$863K**  
 
-Products – Product categories, demand, and pricing
+---
 
-Suppliers – Supplier information and performance
+## 📈 Key Insights
+- 📌 **Top Category:** Beverages ($268K) followed by Dairy Products ($235K)  
+- 📌 **Top Country:** France ($278K), followed by Germany ($197K)  
+- 📌 **Top Region:** Victoria with $863K sales  
+- 📌 Sales show strong growth in 1996, especially in beverages  
+- 📌 Employee distribution and shipping analysis reveal performance gaps  
 
-Shippers – Shipping companies and delivery timelines
+---
 
-⚙️ Steps Followed
-1. Data Cleaning & Preparation
+## ✅ Conclusion
+The dashboard provides a **360° view of company sales and operations**, helping management:
+- Identify best-performing products, regions, and employees  
+- Optimize shipping and supplier costs  
+- Track sales growth trends and customer behavior  
+- Support **data-driven decisions** for expansion and strategy  
 
-Used SQL to clean raw sales data, remove duplicates, and fix inconsistencies
+---
 
-Integrated multiple tables with joins and relationships
-
-Applied transformations in Excel (lookup functions, formatting, missing value handling)
-
-2. Data Modeling
-
-Built star schema in Power BI by connecting fact (Orders, Sales) and dimension (Products, Customers, Employees) tables
-
-Created relationships for accurate aggregation across entities
-
-3. Dashboard Development
-
-Designed KPIs: Total Sales, Total Orders, Avg Shipping Days, Freight per Order, Employee Distribution
-
-Built interactive visuals:
-
-Sales Trends (monthly/seasonal distribution)
-
-Employee Tenure Analysis
-
-Product & Category Performance
-
-Regional and Supplier Contribution
-
-Shipping Efficiency (avg days & cost per order)
-
-4. DAX Implementation
-
-Custom measures for:
-
-Freight cost per order
-
-Average shipping time
-
-Employee tenure
-
-Profit margins & product performance
-
-📊 Key Insights
-
-Sales Trend: Clear seasonal variations with peak demand in specific months
-
-Products: Certain categories drive the majority of sales, highlighting opportunities for inventory focus
-
-Employees: Workforce distribution shows high concentration in a few regions → need balanced hiring
-
-Shipping: Avg shipping time varies significantly by supplier, affecting customer satisfaction
-
-Freight Costs: High freight per order in specific routes indicates inefficiency
-
-✅ Conclusion
-
-This dashboard empowers management to:
-
-Identify top-performing products, suppliers, and employees
-
-Optimize shipping strategy by reducing freight costs and improving timelines
-
-Understand customer demand trends for better forecasting
-
-Support strategic decisions with data-backed insights
-
-🚀 Tools & Technologies
-
-SQL (MySQL) → Data cleaning & integration
-
-Excel → Data preprocessing & initial analysis
-
-Power BI → Data modeling, dashboard design, DAX calculations
-
-📸 Dashboard Preview
+## 📂 Project Structure
+📁 Northwind-Sales-Analytics
+│── 📊 Dashboard.pbix
+│── 📑 SQL Queries.sql
+│── 📑 Data (Excel files)
+│── 📷 Screenshots
+│── 📄 README.md
 
 
+---
 
-📂 How to Use
+## 💡 Future Enhancements
+- Add predictive analytics (sales forecasting)  
+- Automate SQL → Power BI data pipeline  
+- Include customer segmentation & RFM analysis  
 
-Clone the repo
+---
 
-Open the Power BI file (.pbix)
-
-Explore interactive dashboards & filters
-
-🙌 Author
-
-👩‍💻 Surbhi Jain – Data Analyst | Passionate about turning raw data into actionable insights
+### 👩‍💻 Author  
+**Surbhi Jain** | Data Analyst|Passionate about turning raw data into actionable insights 
