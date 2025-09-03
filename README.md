@@ -86,7 +86,7 @@ The dashboard provides a **360° view of company sales and operations**, helping
 
 ---
 ## Project Demo
-[Watch the project overview video]([https://drive.google.com/your-video-link](https://drive.google.com/file/d/15cBHQZwxWVxupd9fIfcVBeltVLi6x9ss/view?usp=sharing))
+[Watch the project overview video]([(https://drive.google.com/file/d/15cBHQZwxWVxupd9fIfcVBeltVLi6x9ss/view?usp=sharing)])
 
 ---
 ### Author  
